@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evergreen Obits</title>
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+    <!-- font-awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <!-- owlcarousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="sidebar-overlay"></div>
+        <div class="header">
+            <nav class="navbar navbar-expand-lg">
+               <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/logo.png" class="logo-img"/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <a href="#" class="btn btn-signup"><i class="fas fa-user"></i> Sign-in</a>
+                        <div class="bar-icon-wrapper" id="mb-sidebar-show">
+                            <span class="bar-icon"></span>
+                            <span class="bar-icon"></span>
+                            <span class="bar-icon"></span>
+                        </div>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 gap-2">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    How It Works
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><div class="dropdown-menu-heading">How It Works</div></li>
+                                    <li><div class="dropdown-menu-subheading">How EvergreenObits Work</div></li>
+                                    <li><a class="dropdown-item" href="#">Where are trees planted?</a></li>
+                                    <li><a class="dropdown-item" href="#">Why publish an obituary online?</a></li>
+                                    <li><div class="dropdown-menu-subheading">Getting Started</div></li>
+                                    <li><a class="dropdown-item" href="#">Publish an Obituary</a></li>
+                                    <li><a class="dropdown-item" href="#">Post a Memory</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    About
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><div class="dropdown-menu-heading">About</div></li>
+                                    <li><div class="dropdown-menu-subheading">Getting Started</div></li>
+                                    <li><a class="dropdown-item" href="#">Publish an Obituary</a></li>
+                                    <li><a class="dropdown-item" href="#">Post a Memory</a></li>
+                                    <li><div class="dropdown-menu-subheading">Resource</div></li>
+                                    <li><div class="dropdown-menu-subheading">Frequently Asked Questions</div></li>
+                                    <li><div class="dropdown-menu-subheading">Contact Us</div></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-none d-md-flex align-items-center gap-3">
+                            <li><a href="#"><i class="fas fa-magnifying-glass"></i></a></li>
+                            <li><a href="#" class="btn btn-main">Create Obituary</a></li>
+                            <li><a href="login.html" class="btn btn-main2">Login</a></li>
+                        </ul>
+                    </div>
+               </div>
+            </nav>
+            <div class="mb-sidebar">
+                <div class="sidebar-content">
+                    <div class="search-form">
+                        <form action="#">
+                            <div class="form-group">
+                                <input type="text" class="search-bar" placeholder="Search">
+                                <button type="submit" class="btn btn-search"><i class="fas fa-magnifying-glass"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                    <a href="#" class="w-100 btn btn-main">Create Obituary</a>
+                    <a href="#" class="w-100 btn btn-main2">Find Obituary</a>
+                    <ul class="mb-sidebar-menu">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                How It Works
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">How EvergreenObits Work</a></li>
+                                <li><a class="dropdown-item" href="#">Getting Started</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Why Publish an Obituary online?</a></li>
+                                <li><a class="dropdown-item" href="#">Where are tress planted?</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Resource</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Frequently Asked Questions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="hero-section">
+                <div class="container">
+                    <div class="row mb-4 d-flex d-md-none">
+                       <div class="col-12 col-sm-12 col-lg-6 mb-3">
+                          <img src="assets/images/hero-2.png" class="mw-100"/>
+                       </div>
+                       <div class="col-8 col-lg-3 col-lg-3">
+                          <img src="assets/images/mb-hero-3.png" class="w-100"/>
+                       </div>
+                       <div class="col-4 col-lg-3">
+                          <img src="assets/images/hero-1.png" class="w-100 h-100"/>
+                       </div>
+                    </div>
+                    <div class="row mx-auto w-100">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="content">
+                                <div class="section-heading">Plant Trees with Every Obituary</div>
+                                <div class="section-text">Beautiful, sustainable, shareable obituaries that support forests in need, starting at $30</div>
+                                <div class="button text-center">
+                                    <a href="#" class="btn btn-main">Create Obituary</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-5 d-none d-md-flex">
+                       <div class="col-lg-3 col-md-3 col-12">
+                          <img src="assets/images/hero-1.png" class="w-100"/>
+                       </div>
+                       <div class="col-md-6 col-lg-6 col-12">
+                          <img src="assets/images/hero-2.png" class="w-100"/>
+                       </div>
+                       <div class="col-lg-3 col-md-3 col-12">
+                          <img src="assets/images/hero-3.png" class="w-100"/>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="how-section">
+                <div class="container">
+                    <div class="section-heading">How Does EvergreenObits Work</div>
+                    <div class="row mx-auto w-100">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                            <div class="how-card">
+                                <div class="icon">
+                                    <i class="fas fa-file-pen"></i>
+                                </div>
+                                <div class="section-heading">Publish</div>
+                                <div class="how-text">Create an obituary page with you loved one’s story and a treasured photo</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                            <div class="how-card">
+                                <div class="icon">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <div class="section-heading">Plant</div>
+                                <div class="how-text">Plant memorial trees in their honor and receive a certificate from our internationally recognized reforestation partners</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                            <div class="how-card">
+                                <div class="icon">
+                                    <i class="fas fa-arrow-up-from-bracket"></i>
+                                </div>
+                                <div class="section-heading">Share</div>
+                                <div class="how-text">Share the obituary page, inviting others to post messages, photos, and plant additional memorial trees</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button text-center">
+                        <a href="#" class="btn btn-main">Create Obituary</a>
+                    </div>
+                </div>
+            </div>
+            <div class="memorial-section">
+                <div class="container">
+                    <div class="row mx-auto w-100">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="section-heading">Obituaries Rooted in Love and Memorial Trees</div>
+                            <div class="section-text">
+                                <p>• Each Evergreen Obituary is a dynamic canvas where memories come to life and an ever-growing forest of trees begins to flourish.</p>
+                                <p>• Celebrate their life, share their story, add cherished photos, and plant memorial trees that serve as a living symbol of their legacy.</p>
+                                <p>• Invite friends and family to contribute memories, photos, and even plant additional trees.</p>
+                                <br>
+                                <p>Start crafting your Evergreen Obituary today.</p>
+                            </div>
+                            <div class="button">
+                                <a href="#" class="btn btn-main">Create Obituary</a>
+                                <a href="#" class="btn btn-main2">View Example</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="img"><img src="assets/images/memorial.png" class="w-100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="affordable-section">
+                <div class="container">
+                    <div class="top-content">
+                        <div class="section-heading">Affordable and Eco-Friendly, Reinventing Traditional Obituaries</div>
+                        <div class="text">Create an Evergreen Obituary for only $30</div>
+                        <div class="button text-center">
+                            <a href="#" class="btn btn-main">Create Obituary</a>
+                        </div>
+                    </div>
+                    <div class="row mx-auto w-100">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="img"><img src="assets/images/affordable.png" class="w-100"></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="affordable-card">
+                                <div class="title">Affordable</div>
+                                <div class="text">Don’t spend hundreds or thousands of dollars on obituaries that often contribute to paper waste and the unnecessary sacrifice of trees</div>
+                            </div>
+                            <div class="affordable-card">
+                                <div class="title">Eco-friendly</div>
+                                <div class="text">Traditional obituaries, including those generated through leading obituary websites and funeral homes, often find their way into printed newspapers, perpetuating an endless cycle of waste and deforestation</div>
+                            </div>
+                            <div class="affordable-card">
+                                <div class="title">Sustainable</div>
+                                <div class="text">By offering a digital-only solution that plants memorial trees with every obituary, we’re redefining the way loved ones are honored and remembered. At EvergreenObits, we believe in a better way to commemorate life, one that respects both your budget and our planet Earth</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="partner-section">
+                    <div class="row w-100 mx-auto">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="pattern-content">
+                                <div class="title">Our National Reforestation Partners</div>
+                                <div class="imgs-flex">
+                                    <div class="img"><img src="assets/images/partner-1.png"></div>
+                                    <div class="img"><img src="assets/images/partner-2.png"></div>
+                                    <div class="img"><img src="assets/images/partner-3.png"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="celebrating-section tab-content-div d-none d-md-block">
+                <div class="container">
+                    <div class="row w-100 mx-auto">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="section-heading">Celebrate Life and Nurture Nature</div>
+                            <div class="tabs-content">
+                                <div class="imgs">
+                                    <img src="assets/images/celebrating-1.png" class="w-100 tab-item active support-reforestation">
+                                    <img src="assets/images/celebrating-1.png" class="w-100 tab-item air-quality-improvement">
+                                    <img src="assets/images/celebrating-1.png" class="w-100 tab-item enhance-biodiversity">
+                                    <img src="assets/images/celebrating-1.png" class="w-100 tab-item cultivate-better-future">
+                                </div>
+                            </div>
+                            <div class="bottom-content">
+                                <div class="tab-links">
+                                    <a class="btn active" data-target-class=".support-reforestation">Support Reforestation</a>
+                                    <a class="btn" data-target-class=".air-quality-improvement">Air Quality Improvement</a>
+                                    <a class="btn" data-target-class=".enhance-biodiversity">Enhance Biodiversity</a>
+                                    <a class="btn" data-target-class=".cultivate-better-future">Cultivate a Better Future</a>
+                                </div>
+                                <div class="tabs-content">
+                                    <div class="tab-item support-reforestation active">
+                                        <div class="text">Every Evergreen Obituary is an investment in the restoration of our environment..</div>
+                                        <div class="text">We partner with internationally recognized reforestation partners who work tirelessly to replant trees in deforested areas, reviving lush green landscapes</div>
+                                    </div>
+                                    <div class="tab-item air-quality-improvement">
+                                        <div class="text">Trees are nature’s powerful air purifiers, absorbing harmful pollutants and releasing fresh, oxygen-rich air.</div>
+                                        <div class="text">By choosing to plant trees in honor of your loved ones, you’re not only creating a living tribute but actively contributing to a healthier environment.</div>
+                                    </div>
+                                    <div class="tab-item enhance-biodiversity">
+                                        <div class="text">Our reforestation partners ensure that your memorial trees are part of carefully planned ecosystems.</div>
+                                        <div class="text">These trees create havens for birds, insects, and wildlife, contributing to a more balanced environment.</div>
+                                    </div>
+                                    <div class="tab-item cultivate-better-future">
+                                        <div class="text">Creating an Evergreen Obituary isn’t just about honoring the past; it’s about securing a brighter future for the next generation.</div>
+                                        <div class="text">Every memorial tree you plant becomes a legacy of hope, ensuring that the Earth we pass on is healthier, greener, and more vibrant.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="celebrating-section tab-content-div d-md-none d-block">
+                <div class="container">
+                    <div class="row w-100 mx-auto">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="section-heading">Celebrate Life and Nurture Nature</div>
+                            <div class="owl-slider">
+                                <div class="owl-carousel celebrating-carousel">
+                                    <div class="item">
+                                        <div class="celebrating-card">
+                                            <div class="img"><img src="assets/images/celebrating-1.png" class="w-100"></div>
+                                            <div class="content">
+                                                <div class="title">Support Reforestation</div>
+                                                <div class="text">
+                                                    <p class="mb-4">Every Evergreen Obituary is an investment in the restoration of our environment.</p>
+                                                    <p>We partner with internationally recognized reforestation partners who work tirelessly to replant trees in deforested areas, reviving lush green landscapes.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="celebrating-card">
+                                            <div class="img"><img src="assets/images/celebrating-1.png" class="w-100"></div>
+                                            <div class="content">
+                                                <div class="title">Air Quality Improvement</div>
+                                                <div class="text">
+                                                    <p class="mb-4">Trees are nature’s powerful air purifiers, absorbing harmful pollutants and releasing fresh, oxygen-rich air.</p>
+                                                    <p>By choosing to plant trees in honor of your loved ones, you’re not only creating a living tribute but actively contributing to a healthier environment.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="celebrating-card">
+                                            <div class="img"><img src="assets/images/celebrating-1.png" class="w-100"></div>
+                                            <div class="content">
+                                                <div class="title">Enhance Biodiversity
+                                                </div>
+                                                <div class="text">
+                                                    <p class="mb-4">Our reforestation partners ensure that your memorial trees are part of carefully planned ecosystems.</p>
+                                                    <p>These trees create havens for birds, insects, and wildlife, contributing to a more balanced environment.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="celebrating-card">
+                                            <div class="img"><img src="assets/images/celebrating-1.png" class="w-100"></div>
+                                            <div class="content">
+                                                <div class="title">Cultivate a Better Future</div>
+                                                <div class="text">
+                                                    <p class="mb-4">Creating an Evergreen Obituary isn’t just about honoring the past; it’s about securing a brighter future for the next generation.</p>
+                                                    <p>Every memorial tree you plant becomes a legacy of hope, ensuring that the Earth we pass on is healthier, greener, and more vibrant.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="purpose-section">
+                <div class="container">
+                    <div class="top-content">
+                        <div class="section-heading">Affordable Obituaries with Purpose</div>
+                        <div class="section-text">
+                            <p>Only $5 per tree + a modest obituary setup fee</p>
+                            <p>Lower or eliminate your setup fee by planting more trees</p>
+                        </div>
+                    </div>
+                    <div class="row mx-auto w-100">
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                            <div class="text-content">
+                                <div class="title">All Evergreen Obituaries include:</div>
+                                <div class="text">
+                                    <p><i class="fas fa-check-circle"></i> Memorial Trees</p>
+                                    <p><i class="fas fa-check-circle"></i> Ability to customize and add treasured photos</p>
+                                    <p><i class="fas fa-check-circle"></i> Interactive sharing where others can post messages and dedicate trees</p>
+                                    <p><i class="fas fa-check-circle"></i> Funeral and event info</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                            <div class="row mx-auto w-100 align-items-end">
+                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                    <div class="purpose-card">
+                                        <div class="img"><img src="assets/images/purpose-1.png" class="w-100"></div>
+                                        <div class="card-detail">
+                                            <div class="title">1 Memorial Tree</div>
+                                            <div class="heading">$30</div>
+                                            <div class="text">Includes $25 Setup Fee</div>
+                                            <div class="button text-center">
+                                                <a href="#" class="btn btn-main">Get Started</a>
+                                            </div>
+                                            <div class="text">
+                                                <p><i class="fas fa-check-circle"></i> Personalize</p>
+                                                <p><i class="fas fa-check-circle"></i> Share</p>
+                                                <p><i class="fas fa-check-circle"></i> Funeral and Event Info</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                    <div class="purpose-card">
+                                        <div class="img"><img src="assets/images/purpose-2.png" class="w-100"></div>
+                                        <div class="card-detail">
+                                            <div class="title">5 Memorial Tree</div>
+                                            <div class="heading">$45</div>
+                                            <div class="text">Includes $20 Setup Fee</div>
+                                            <div class="button text-center">
+                                                <a href="#" class="btn btn-main">Get Started</a>
+                                            </div>
+                                            <div class="text">
+                                                <p><i class="fas fa-check-circle"></i> Personalize</p>
+                                                <p><i class="fas fa-check-circle"></i> Share</p>
+                                                <p><i class="fas fa-check-circle"></i> Funeral and Event Info</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                    <div class="purpose-card">
+                                        <div class="img"><img src="assets/images/purpose-3.png" class="w-100"></div>
+                                        <div class="card-detail">
+                                            <div class="title">10 Memorial Tree</div>
+                                            <div class="heading">$60</div>
+                                            <div class="text">Includes $10 Setup Fee</div>
+                                            <div class="button text-center">
+                                                <a href="#" class="btn btn-main">Get Started</a>
+                                            </div>
+                                            <div class="text">
+                                                <p><i class="fas fa-check-circle"></i> Personalize</p>
+                                                <p><i class="fas fa-check-circle"></i> Share</p>
+                                                <p><i class="fas fa-check-circle"></i> Funeral and Event Info</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                    <div class="purpose-card active">
+                                        <div class="purpose-active-title">No Setup Fee</div>
+                                        <div class="img"><img src="assets/images/purpose-4.png" class="w-100"></div>
+                                        <div class="card-detail">
+                                            <div class="title">15 Memorial Tree</div>
+                                            <div class="heading">$75</div>
+                                            <div class="text">No Setup Fee</div>
+                                            <div class="button text-center">
+                                                <a href="#" class="btn btn-main">Get Started</a>
+                                            </div>
+                                            <div class="text">
+                                                <p><i class="fas fa-check-circle"></i> Personalize</p>
+                                                <p><i class="fas fa-check-circle"></i> Share</p>
+                                                <p><i class="fas fa-check-circle"></i> Funeral and Event Info</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section">
+            <div class="top-footer">
+                <div class="container">
+                    <div class="row mx-auto w-100">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="footer-logo"><img src="assets/images/footer-logo.png"></div>
+                        </div>
+                    </div>
+                    <div class="row mx-auto w-100 mb-fdr">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="footer-title">Connect</div>
+                            <div class="footer-icons">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 px-0">
+                            <div class="row mx-auto w-100 d-none d-md-flex">
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                                    <div class="footer-title">Tributes</div>
+                                    <div class="footer-link"><a href="#">Create a Tribute</a></div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                                    <div class="footer-title">About</div>
+                                    <div class="footer-link"><a href="#">About Evergreen Tribute</a></div>
+                                    <div class="footer-link"><a href="#">How It Works</a></div>
+                                    <div class="footer-link"><a href="#">FAQ</a></div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                                    <div class="footer-title">Support</div>
+                                    <div class="footer-link"><a href="#">Contact Us</a></div>
+                                </div>
+                            </div>
+                            <div class="row mx-auto w-100 d-md-none d-flex">
+                                <ul class="mb-footer-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Tributes
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Create a Tribute</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            About
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">About Evergreen Tribute</a></li>
+                                            <li><a class="dropdown-item" href="#">How It Works</a></li>
+                                            <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Support
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-footer">
+                <div class="container">
+                    <div class="row mx-auto w-100">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="copyright-text">© 2023 Evergreen Tribute. All Rights Reserved.</div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="copyright-links">
+                                <a href="#" class="me-4">Terms</a>
+                                <a href="#">Privacy Policy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Owlcarousel CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
