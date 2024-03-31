@@ -1,0 +1,304 @@
+.post-page-content {
+    padding-top: 40px;
+}
+.post-page-content .hero-section {
+    background: url('../images/post-hero-bg.png');
+    background-size: 100% 250px;
+    background-repeat: no-repeat;
+    padding: 0px;
+    position: relative;
+    padding-top: 150px;
+    text-align: start;
+}
+.post-page-content .hero-section .left-content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #999999;
+}
+.post-page-content .hero-section .left-content .tag {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+.post-page-content .hero-section .left-content .section-heading {
+    margin-bottom: 20px;
+}
+.post-page-content .hero-section .right-content {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #999999;
+    text-align: end;
+}
+.post-page-content .hero-section .right-content .text {
+    color: #1A1A1A;
+    margin-bottom: 26px;
+}
+.post-page-content .hero-section .text11 {
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 24px;
+    color: #333333;
+}
+.post-page-content .hero-section .text11 span {
+    color: #999999;
+}
+.post-page-content .hero-section .text12 {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 24px;
+    color: #333333;
+}
+.post-page-content .hero-section .btn-read {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    padding: 0px;
+    color: #333333;
+}
+
+.post-page-content .tab-links {
+    border-bottom: 2.6px solid #CCCCCC;
+}
+.post-page-content .tab-links a {
+    border-radius: 50px;
+    border: 1px solid #707070;
+    background: #33333300;
+    padding: 12px 24px;
+    color: #1A1A1A;
+    width: auto;
+    margin: 20px 24px 20px 0px;
+}
+.post-page-content .tab-links a.active {
+    border: 1px solid #191919;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+}
+.post-page-content .post-tab-card {
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 16px;
+    padding: 18px 12px;
+    margin-bottom: 20px;
+}
+.post-page-content .post-tab-card .img img {
+    border-radius: 16px;
+    margin-bottom: 26px;
+}
+.post-page-content .post-tab-card .text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #333333;
+    margin-bottom: 14px;
+}
+.post-page-content .post-tab-card .dedicated {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #999999;
+    margin-bottom: 28px;
+}
+.post-page-content .post-tab-card .tree-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-page-content .post-tab-card .tree-flex .icon-flex {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #394A4D;
+}
+.post-page-content .post-tab-card .tree-flex .icon-flex img {
+    width: 24px;
+}
+.post-page-content .post-tab-card .tree-flex .btn-share {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #1A1A1A;
+    padding: 8px 12px;
+    border: 1px solid #E6E6E6;
+    border-radius: 50px;
+}
+.post-page-content .post-tab-card .tree-flex .btn-share:hover {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+}
+.post-page-content .event-tab-card {
+    background: #FFFFFF;
+    border: 1px solid #999999;
+    border-radius: 16px;
+    padding: 16px 22px;
+    display: flex;
+    gap: 18px;
+    margin-bottom: 16px;
+}
+.post-page-content .event-tab-card .date {
+    background: #F4F1EB;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    width: 88px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.post-page-content .event-tab-card .date strong {
+    font-size: 32px;
+    line-height: 40px;
+}
+.post-page-content .event-tab-card .title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 6px;
+    color: #1A1A1A;
+}
+.post-page-content .event-tab-card .text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 8px;
+    color: #999999;
+}
+.post-page-content .event-tab-card .text i {
+    margin-right: 8px;
+}
+
+.post-page-content .post-right-card {
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 18px;
+}
+.post-page-content .post-right-card .icon-flex {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #999999;
+    display: flex;
+    gap: 18px;
+}
+.post-page-content .post-right-card img {
+    width: 35px;
+}
+.post-page-content .post-right-card .icon-flex .title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1B4B45;
+    margin-bottom: 10px;
+}
+.post-page-content .post-right-card .icon-flex .title strong {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #1B4B45;
+}
+.post-page-content .post-right-card .btn-main {
+    margin-bottom: 18px;
+}
+.post-page-content .post-right-card .heading {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #1B4B45;
+    margin-top: 28px;
+    margin-bottom: 14px;
+}
+.post-page-content .post-right-card .dedication-flex {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #999999;
+    margin-bottom: 15px;
+}
+.post-page-content .post-right-card .dedication-flex:last-child {
+    margin-bottom: 0px;
+}
+.post-page-content .post-right-card .dedication-flex .icon-flex {
+    gap: 8px;
+}
+.post-page-content .post-right-card .icon-flex .icon-box {
+    background: #F4F1EB;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post-page-content .post-right-card .icon-flex .icon-box img {
+    width: 16px;
+}
+.post-page-content .post-right-card .icon-flex .heading {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #333333;
+    margin: 0px;
+}
+.post-page-content .post-right-card .icon-flex .text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #333333;
+}
+
+@media screen and (max-width: 767px) {
+    .post-page-content {
+        padding-top: 10px;
+    }
+    .post-page-content .hero-section {
+        background: url('../images/post-hero-img-mb.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 300px;
+    }
+    .post-page-content .hero-section .right-content,
+    .post-page-content .hero-section .left-content {
+        text-align: center;
+    }
+    .post-page-content .hero-section .left-content { 
+        margin-bottom: 20px;
+    }
+    .post-page-content .hero-section .text12,
+    .post-page-content .hero-section .btn-read,
+    .post-page-content .hero-section .right-content .text,
+    .post-page-content .hero-section .left-content .section-heading {
+        margin-bottom: 10px;
+    }
+    .post-page-content .hero-section .text11 {
+        margin-top: 33px;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
