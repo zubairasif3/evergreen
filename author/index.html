@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Evergreen Obits</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+      <link rel="stylesheet" href="../assets/css/style.css"/>
+      <link rel="stylesheet" href="../assets/css/author.css"/>
+   </head>
+   <body>
+        <div class="wrapper author-wrapper">
+            <div class="sidebar-overlay"></div>
+            <div class="header">
+                <nav class="navbar navbar-expand-lg">
+                   <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="../assets/images/logo.png" class="logo-img"/>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <div class="nav-item dropdown right-toggle">
+                                
+                                <a class="dropdown-toggle btn-user" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="far fa-user"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="dropdown-flex top-flex">
+                                            <div class="btn-user"><i class="far fa-user"></i></div>
+                                            <div>
+                                                <div class="top-name">First Name</div>
+                                                <div class="email">user@email.cosign</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-flex">
+                                            <div class="icon"><i class="fa fa-table-list"></i></div>
+                                            <div>Dashboard</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-flex">
+                                            <div class="icon"><i class="far fa-user"></i></div>
+                                            <div>Account</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-flex">
+                                            <div class="icon"><i class="fa fa-cog"></i></div>
+                                            <div>Settings</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-flex bottom-flex">
+                                            <div class="icon"><i class="fa fa-sign-out"></i></div>
+                                            <div>Log out</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bar-icon-wrapper" id="mb-sidebar-show">
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                            </div>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 gap-2">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        How It Works
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><div class="dropdown-menu-heading">How It Works</div></li>
+                                        <li><div class="dropdown-menu-subheading">How EvergreenObits Work</div></li>
+                                        <li><a class="dropdown-item" href="#">Where are trees planted?</a></li>
+                                        <li><a class="dropdown-item" href="#">Why publish an obituary online?</a></li>
+                                        <li><div class="dropdown-menu-subheading">Getting Started</div></li>
+                                        <li><a class="dropdown-item" href="#">Publish an Obituary</a></li>
+                                        <li><a class="dropdown-item" href="#">Post a Memory</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        About
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><div class="dropdown-menu-heading">About</div></li>
+                                        <li><div class="dropdown-menu-subheading">Getting Started</div></li>
+                                        <li><a class="dropdown-item" href="#">Publish an Obituary</a></li>
+                                        <li><a class="dropdown-item" href="#">Post a Memory</a></li>
+                                        <li><div class="dropdown-menu-subheading">Resource</div></li>
+                                        <li><div class="dropdown-menu-subheading">Frequently Asked Questions</div></li>
+                                        <li><div class="dropdown-menu-subheading">Contact Us</div></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-none d-md-flex align-items-center gap-3">
+                                <li><a href="#"><i class="fas fa-magnifying-glass"></i></a></li>
+                                <li class="nav-item dropdown right-toggle">
+                                    <a class="dropdown-toggle btn-user" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="far fa-user"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="dropdown-flex top-flex">
+                                                <div class="btn-user"><i class="far fa-user"></i></div>
+                                                <div>
+                                                    <div class="top-name">First Name</div>
+                                                    <div class="email">user@email.cosign</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-flex">
+                                                <div class="icon"><i class="fa fa-table-list"></i></div>
+                                                <div>Dashboard</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-flex">
+                                                <div class="icon"><i class="far fa-user"></i></div>
+                                                <div>Account</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-flex">
+                                                <div class="icon"><i class="fa fa-cog"></i></div>
+                                                <div>Settings</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-flex bottom-flex">
+                                                <div class="icon"><i class="fa fa-sign-out"></i></div>
+                                                <div>Log out</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                   </div>
+                </nav>
+                <div class="mb-sidebar">
+                    <div class="sidebar-content">
+                        <div class="search-form">
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="text" class="search-bar" placeholder="Search">
+                                    <button type="submit" class="btn btn-search"><i class="fas fa-magnifying-glass"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <ul class="mb-sidebar-menu">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    How It Works
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">How EvergreenObits Work</a></li>
+                                    <li><a class="dropdown-item" href="#">Getting Started</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    About
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Why Publish an Obituary online?</a></li>
+                                    <li><a class="dropdown-item" href="#">Where are tress planted?</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Resource</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Frequently Asked Questions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content author-content">
+                <div class="container">
+                    <div class="row mx-auto w-100">
+                        <div class="col-lg-7 col-md-7 col-sm-12 col-12 left-content ">
+                            <div class="tab-content">
+                                <div class="tab-pane active" role="tabpanel" id="step1">
+                                    <div class="step1-content">
+                                        <div class="hero-section">
+                                            <div class="row mx-auto w-100 align-items-end">
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-12 left-content">
+                                                    <div class="tag">Sentiment Title</div>
+                                                    <div class="section-heading">Name</div>
+                                                    <div>MM/DD/YYYY - MM/DD/YYYY</div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-12 d-none d-md-block">
+                                                    <div class="img"><img src="../assets/images/author-profile-demo.png" class="w-100"></div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-12 right-content">
+                                                    <div class="text">Last Residence<br> College <br> High School </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mx-auto w-100">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="text11"><span>PUBLISHED BY DISPLAY NAME</span></div>
+                                                    <div class="text12">Your obituary message will be featured here</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="step1-content1">
+                                        <div class="hero-section">
+                                            <div class="row mx-auto w-100 align-items-end">
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-12 left-content">
+                                                    <div class="tag">In Loving Memory of</div>
+                                                    <div class="section-heading">Leslie Smith</div>
+                                                    <div>July 7, 1948 - Aug 4, 2023</div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-12 d-none d-md-block">
+                                                    <div class="img"><img src="../assets/images/author-profile-demo.png" class="w-100"></div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-sm-12 col-12 right-content">
+                                                    <div class="text">Albany, NY <br> Amherst College <br> Rochester High School </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mx-auto w-100">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="text11">PUBLISHED BY KRISTEN SMITH <span>JAN 1, 2023</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="step2">
+                                    <div class="hero-section">
+                                        <div class="row mx-auto w-100 align-items-end">
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 left-content">
+                                                <div class="tag">Sentiment Title</div>
+                                                <div class="section-heading">Name</div>
+                                                <div>MM/DD/YYYY - MM/DD/YYYY</div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 d-none d-md-block">
+                                                <div class="img"><img src="../assets/images/author-profile-demo.png" class="w-100"></div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 right-content">
+                                                <div class="text">Last Residence<br> College <br> High School </div>
+                                                <div>Last Updated: Aug 1, 2023</div>
+                                            </div>
+                                        </div>
+                                        <div class="row mx-auto w-100">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                <div class="text11">PUBLISHED BY KRISTEN SMITH <span>JAN 1, 2023</span></div>
+                                                <div class="text12">Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished. Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished.Mom’s kitchen was a sanctuary,</div>
+                                                <div class="text12">Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished. Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished.Mom’s kitchen was a sanctuary,</div>
+                                                <div class="text12"> Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished. Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished.Mom’s kitchen was a sanctuary, Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished. Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished.Mom’s kitchen was a sanctuary,</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" role="tabpanel" id="step3">
+                                    <div class="hero-section">
+                                        <div class="row mx-auto w-100 align-items-end">
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 left-content">
+                                                <div class="tag">Sentiment Title</div>
+                                                <div class="section-heading">Name</div>
+                                                <div>MM/DD/YYYY - MM/DD/YYYY</div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 d-none d-md-block">
+                                                <div class="img"><img src="../assets/images/tab-profile.png" class="w-100"></div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-sm-12 col-12 right-content">
+                                                <div class="text">Last Residence<br> College <br> High School </div>
+                                                <div>Last Updated: Aug 1, 2023</div>
+                                            </div>
+                                        </div>
+                                        <div class="row mx-auto w-100">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                <div class="text11">PUBLISHED BY KRISTEN SMITH <span>JAN 1, 2023</span></div>
+                                                <div class="text12">Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished. Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished.Mom’s kitchen was a sanctuary,</div>
+                                                <div class="text12">Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished. Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished.Mom’s kitchen was a sanctuary,</div>
+                                                <div class="text12"> Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished. Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished.Mom’s kitchen was a sanctuary, Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished. Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished.Mom’s kitchen was a sanctuary,</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-12 right-content">
+                            <div class="form-content">
+                                <div class="wizard">
+                                    <div class="wizard-inner onstep1">
+                                        <div class="connecting-line"></div>
+                                        <div class="fill-line-blue"></div>
+                                        <div class="fill-line-green"></div>
+                                        <ul class="nav nav-tabs" role="tablist">
+                                            <li role="presentation" class="active">
+                                                <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" aria-expanded="true">
+                                                    <span class="round-tab"><i class="fas fa-check"></i></span> 
+                                                    <div class="step-content">
+                                                        <div class="step-count">Step 1</div>
+                                                        <div class="step-heading">Obituary Details</div>
+                                                        <div class="step-status">
+                                                            <div class="in-progress">In Progress</div>
+                                                            <div class="in-pending">Pending</div>
+                                                            <div class="in-complete">Complete</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="disabled">
+                                                <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" aria-expanded="false">
+                                                    <span class="round-tab"><i class="fas fa-check"></i></span> 
+                                                    <div class="step-content">
+                                                        <div class="step-count">Step 2</div>
+                                                        <div class="step-heading">Personalize</div>
+                                                        <div class="step-status">
+                                                            <div class="in-progress">In Progress</div>
+                                                            <div class="in-pending">Pending</div>
+                                                            <div class="in-complete">Complete</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="disabled">
+                                                <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab">
+                                                    <span class="round-tab"><i class="fas fa-check"></i></span> 
+                                                    <div class="step-content">
+                                                        <div class="step-count">Step 3</div>
+                                                        <div class="step-heading">Memorial Trees</div>
+                                                        <div class="step-status">
+                                                            <div class="in-progress">In Progress</div>
+                                                            <div class="in-pending">Pending</div>
+                                                            <div class="in-complete">Complete</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="disabled">
+                                                <a href="#step4" data-toggle="tab" aria-controls="step4" role="tab">
+                                                    <span class="round-tab"><i class="fas fa-check"></i></span> 
+                                                    <div class="step-content">
+                                                        <div class="step-count">Step 4</div>
+                                                        <div class="step-heading">Checkout</div>
+                                                        <div class="step-status">
+                                                            <div class="in-progress">In Progress</div>
+                                                            <div class="in-pending">Pending</div>
+                                                            <div class="in-complete">Complete</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                    
+                                    <form role="form" action="" class="author-form-box">
+                                        <div class="tab-content" id="main_form">
+                                            <div class="tab-pane active" role="tabpanel" id="step1">
+                                                <div class="step1-content">
+                                                    <h4 class="tab-heading">Obituary Details</h4>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>Select a obituary title</label> 
+                                                                <select name="" id="" class="form-control">
+                                                                    <option value="">Select a title</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>Name of deceased loved one*</label> 
+                                                                <input class="form-control mb-3" type="text" name="first_name" placeholder="First Name">
+                                                                <input class="form-control" type="text" name="last_name" placeholder="Last Name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label>Date of Birth</label> 
+                                                                        <input class="form-control" type="text" name="dob" placeholder="MM/DD/YYYY">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label>Date of Death*</label> 
+                                                                        <input class="form-control" type="text" name="dod" placeholder="MM/DD/YYYY">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>Last place of residence*</label> 
+                                                                <input class="form-control" type="text" name="city" placeholder="City, State">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>College <span class="fw-light">(optional)</span></label> 
+                                                                <input class="form-control" type="text" name="college" placeholder="Name of college">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>High School <span class="fw-light">(optional)</span></label> 
+                                                                <input class="form-control" type="text" name="highschool" placeholder="Name of high school">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>
+                                                                    What name should we display with your post?*
+                                                                    <div class="input-hint">Ex: Daniela Smith, The Smith Family, etc.</div>
+                                                                </label> 
+                                                                <input class="form-control" type="text" name="name" placeholder="Display Name">
+                                                                <input class="form-radio" type="radio" name="anonymous"> 
+                                                                <label class="radio-label">Display as “Anonymous”</label>  
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="col-md-12">
+                                                            <button type="button" class="default-btn inner-step">Continue</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="step1-content1">
+                                                    <h4 class="tab-heading">Obituary</h4>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <label>Write Obituary <br> <span class="fw-light mb-4">This can be updated at a later time.</span></label>
+                                                                <textarea class="form-control" rows="6" name="message" placeholder="Enter Obituary"></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="buttons-flex">
+                                                            <button type="button" class="skip-btn next-step" data-target="#step2">Skip</button>
+                                                            <button type="button" class="default-btn next-step" data-target="#step2">Continue</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" role="tabpanel" id="step2">
+                                                <h4 class="tab-heading mb-0">
+                                                    Personalize Obituary
+                                                    <div class="sub-heading mb-0">Upload obituary photo</div>
+                                                </h4>
+                                                <p class="mb-3">You can add additional photos/videos after publishing obituary</p>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <input class="form-control d-none" type="file" name="filetoupload" id="filetoupload">
+                                                            <label class="drag-drop-section w-100" for="filetoupload">
+                                                                <div class="content">
+                                                                    <div class="icon"><img src="../assets/images/icons/pics.jpg"></div>
+                                                                    <div class="title">Add Photos/Videos</div>
+                                                                    <div class="text">or drag and drop</div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <label for="">Choose a banner*</label>
+                                                            <div class="banner-imgs-flex">
+                                                                <img src="../assets/images/author-profile-banner/1.png">
+                                                                <img src="../assets/images/author-profile-banner/2.png">
+                                                                <img src="../assets/images/author-profile-banner/3.png">
+                                                                <img src="../assets/images/author-profile-banner/4.png">
+                                                                <img src="../assets/images/author-profile-banner/5.png">
+                                                                <img src="../assets/images/author-profile-banner/1.png">
+                                                                <img src="../assets/images/author-profile-banner/2.png">
+                                                                <img src="../assets/images/author-profile-banner/3.png">
+                                                                <img src="../assets/images/author-profile-banner/4.png">
+                                                                <img src="../assets/images/author-profile-banner/5.png">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="buttons-flex">
+                                                            <button type="button" class="skip-btn next-step" data-target="#step1">Back</button>
+                                                            <button type="button" class="default-btn next-step" data-target="#step3">Continue</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" role="tabpanel" id="step3">
+                                                <h4 class="tab-heading">Plant Memorial Trees</h4>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="plant-title">How many trees would you like to dedicate?</div>
+                                                </div>
+                                                <div class="plant-text">A digital certificate of your memorial trees will be sent to you via email.</div>
+                                                <div class="tree-price-section">
+                                                    <div class="tree-price">$75</div>
+                                                    <div class="tree-flex">
+                                                        <div class="tree-card" data-price="$30">
+                                                            <div class="card-price">$30</div>
+                                                            <div class="card-qty">1 Tree</div>
+                                                            <div class="card-text">$25 Setup Fee</div>
+                                                        </div>
+                                                        <div class="tree-card" data-price="$45">
+                                                            <div class="card-price">$45</div>
+                                                            <div class="card-qty">5 Trees</div>
+                                                            <div class="card-text">$20 Setup Fee</div>
+                                                        </div>
+                                                        <div class="tree-card" data-price="$60">
+                                                            <div class="card-price">$60</div>
+                                                            <div class="card-qty">10 Trees</div>
+                                                            <div class="card-text">$10 Setup Fee</div>
+                                                        </div>
+                                                        <div class="tree-card active" data-price="$75">
+                                                            <div class="card-price">$75</div>
+                                                            <div class="card-qty">15 Tree</div>
+                                                            <div class="card-text">$0 Setup Fee</div>
+                                                        </div>
+                                                        <div class="tree-card" data-price="$100">
+                                                            <div class="card-price">$100</div>
+                                                            <div class="card-qty">20 Trees</div>
+                                                            <div class="card-text">$0 Setup Fee</div>
+                                                        </div>
+                                                        <div class="tree-card" data-price="$200">
+                                                            <div class="card-price">$200</div>
+                                                            <div class="card-qty">40 Trees</div>
+                                                            <div class="card-text">$0 Setup Fee</div>
+                                                        </div>
+                                                        <div class="tree-card" data-price="$500">
+                                                            <div class="card-price">$500</div>
+                                                            <div class="card-qty">100 Trees</div>
+                                                            <div class="card-text">$0 Setup Fee</div>
+                                                        </div>
+                                                        <div class="tree-card">
+                                                            <div class="card-custom-amount">Custom</div>
+                                                            <div class="card-qty">15 Trees</div>
+                                                            <div class="card-text">$0 Setup Fee</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="buttons-flex">
+                                                    <button type="button" class="back-btn back-step" data-target="#step2">Black</button>
+                                                    <a type="button" href="checkout.html" class="default-btn next-step" data-target="#step3">Continue</a>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/js/script.js"></script>
+        <script src="../assets/js/contributor.js"></script>
+        <script>
+            $(".inner-step").on('click', function() {
+                $(".tab-content .tab-pane.active").addClass("step-inner");
+                $(".wizard-inner.onstep1").addClass("step-inner");
+            });
+        </script>
+   </body>
+</html>

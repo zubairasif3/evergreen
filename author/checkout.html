@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Evergreen Obits</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+      <link rel="stylesheet" href="../assets/css/style.css"/>
+      <link rel="stylesheet" href="../assets/css/author.css"/>
+   </head>
+   <body class="checkout-body">
+        <div class="wrapper contributor-wrapper">
+            <div class="sidebar-overlay"></div>
+            <div class="header">
+                <nav class="navbar navbar-expand-lg">
+                   <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="../assets/images/logo.png" class="logo-img"/>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <div class="nav-item dropdown right-toggle">
+                                <a class="dropdown-toggle btn-user" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="far fa-user"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="dropdown-flex top-flex">
+                                            <div class="btn-user"><i class="far fa-user"></i></div>
+                                            <div>
+                                                <div class="top-name">First Name</div>
+                                                <div class="email">user@email.cosign</div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-flex">
+                                            <div class="icon"><i class="fa fa-table-list"></i></div>
+                                            <div>Dashboard</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-flex">
+                                            <div class="icon"><i class="far fa-user"></i></div>
+                                            <div>Account</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-flex">
+                                            <div class="icon"><i class="fa fa-cog"></i></div>
+                                            <div>Settings</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-flex bottom-flex">
+                                            <div class="icon"><i class="fa fa-sign-out"></i></div>
+                                            <div>Log out</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bar-icon-wrapper" id="mb-sidebar-show">
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                            </div>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 gap-2">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        How It Works
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><div class="dropdown-menu-heading">How It Works</div></li>
+                                        <li><div class="dropdown-menu-subheading">How EvergreenObits Work</div></li>
+                                        <li><a class="dropdown-item" href="#">Where are trees planted?</a></li>
+                                        <li><a class="dropdown-item" href="#">Why publish an obituary online?</a></li>
+                                        <li><div class="dropdown-menu-subheading">Getting Started</div></li>
+                                        <li><a class="dropdown-item" href="#">Publish an Obituary</a></li>
+                                        <li><a class="dropdown-item" href="#">Post a Memory</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        About
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><div class="dropdown-menu-heading">About</div></li>
+                                        <li><div class="dropdown-menu-subheading">Getting Started</div></li>
+                                        <li><a class="dropdown-item" href="#">Publish an Obituary</a></li>
+                                        <li><a class="dropdown-item" href="#">Post a Memory</a></li>
+                                        <li><div class="dropdown-menu-subheading">Resource</div></li>
+                                        <li><div class="dropdown-menu-subheading">Frequently Asked Questions</div></li>
+                                        <li><div class="dropdown-menu-subheading">Contact Us</div></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-none d-md-flex align-items-center gap-3">
+                                <li><a href="#"><i class="fas fa-magnifying-glass"></i></a></li>
+                                <li class="nav-item dropdown right-toggle">
+                                    <a class="dropdown-toggle btn-user" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="far fa-user"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="dropdown-flex top-flex">
+                                                <div class="btn-user"><i class="far fa-user"></i></div>
+                                                <div>
+                                                    <div class="top-name">First Name</div>
+                                                    <div class="email">user@email.cosign</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-flex">
+                                                <div class="icon"><i class="fa fa-table-list"></i></div>
+                                                <div>Dashboard</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-flex">
+                                                <div class="icon"><i class="far fa-user"></i></div>
+                                                <div>Account</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-flex">
+                                                <div class="icon"><i class="fa fa-cog"></i></div>
+                                                <div>Settings</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-flex bottom-flex">
+                                                <div class="icon"><i class="fa fa-sign-out"></i></div>
+                                                <div>Log out</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                   </div>
+                </nav>
+                <div class="mb-sidebar">
+                    <div class="sidebar-content">
+                        <div class="search-form">
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="text" class="search-bar" placeholder="Search">
+                                    <button type="submit" class="btn btn-search"><i class="fas fa-magnifying-glass"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <ul class="mb-sidebar-menu">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    How It Works
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">How EvergreenObits Work</a></li>
+                                    <li><a class="dropdown-item" href="#">Getting Started</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    About
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Why Publish an Obituary online?</a></li>
+                                    <li><a class="dropdown-item" href="#">Where are tress planted?</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Resource</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Frequently Asked Questions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content contributor-content">
+                <div class="row mx-auto w-100">
+                    <div class="col-lg-7 col-md-6 col-sm-12 col-12 checkout-content">
+                        <div class="form-content">
+                            <div class="wizard">
+                                <div class="wizard-inner onstep4">
+                                    <div class="connecting-line"></div>
+                                    <div class="fill-line-blue"></div>
+                                    <div class="fill-line-green"></div>
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="complete">
+                                            <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" aria-expanded="true">
+                                                <span class="round-tab"><i class="fas fa-check"></i></span> 
+                                                <div class="step-content">
+                                                    <div class="step-count">Step 1</div>
+                                                    <div class="step-heading">Obituary Details</div>
+                                                    <div class="step-status">
+                                                        <div class="in-progress">In Progress</div>
+                                                        <div class="in-pending">Pending</div>
+                                                        <div class="in-complete">Complete</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="complete">
+                                            <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" aria-expanded="false">
+                                                <span class="round-tab"><i class="fas fa-check"></i></span> 
+                                                <div class="step-content">
+                                                    <div class="step-count">Step 2</div>
+                                                    <div class="step-heading">Personalize</div>
+                                                    <div class="step-status">
+                                                        <div class="in-progress">In Progress</div>
+                                                        <div class="in-pending">Pending</div>
+                                                        <div class="in-complete">Complete</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="complete">
+                                            <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab">
+                                                <span class="round-tab"><i class="fas fa-check"></i></span> 
+                                                <div class="step-content">
+                                                    <div class="step-count">Step 3</div>
+                                                    <div class="step-heading">Memorial Trees</div>
+                                                    <div class="step-status">
+                                                        <div class="in-progress">In Progress</div>
+                                                        <div class="in-pending">Pending</div>
+                                                        <div class="in-complete">Complete</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="active">
+                                            <a href="#step4" data-toggle="tab" aria-controls="step4" role="tab">
+                                                <span class="round-tab"><i class="fas fa-check"></i></span> 
+                                                <div class="step-content">
+                                                    <div class="step-count">Step 4</div>
+                                                    <div class="step-heading">Checkout</div>
+                                                    <div class="step-status">
+                                                        <div class="in-progress">In Progress</div>
+                                                        <div class="in-pending">Pending</div>
+                                                        <div class="in-complete">Complete</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="d-block d-md-none">
+                                    <div class="checkout-card">
+                                        <div class="d-flex gap-3 align-items-center">
+                                            <div class="img"><img src="../assets/images/tab-profile.png"></div>
+                                            <div class="text">In Memory of Leslie Smith <br> Dedicated by: Kristen Smith</div>
+                                        </div>
+                                        <div class="item-amounts">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div>15 Trees</div>
+                                                <div><strong>$15.00</strong></div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div>Setup Fee</div>
+                                                <div><strong>$15.00</strong></div>
+                                            </div>
+                                        </div>
+                                        <div class="total-amount d-flex justify-content-between align-items-center">
+                                            <div>Total</div>
+                                            <div>$30.00</div>
+                                        </div>
+                                        <div class="button">
+                                            <a href="#" class="btn btn-checkout">Edit</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <form role="form" action="" class="contributor-form-box">
+                                    <div class="tab-content" id="main_form">
+                                        <div class="tab-pane active" role="tabpanel" id="step4">
+                                            <div class="row w-100 mx-auto">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="easy-checkout">
+                                                        <div class="title">Easy Checkout</div>
+                                                        <div class="buttons">
+                                                            <a href="#" class="btn btn-apple">PLAY WITH <img src="../assets/images/icons/apple-pay.png"></a>
+                                                            <a href="#" class="btn btn-google">PLAY WITH <img src="../assets/images/icons/g-pay.png"></a>
+                                                            <a href="#" class="btn btn-paypal">PLAY WITH <img src="../assets/images/icons/paypal-pay.png"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="border-center">
+                                                        <div class="text">Or continue below to pay with a credit card</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <div class="float-label-field">
+                                                            <input type="text" class="form-control" value="Kristen" id="first_name" required>
+                                                            <label alt="first_name" for="first_name" placeholder="">Cardholder First Name</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <div class="float-label-field">
+                                                            <input type="text" class="form-control" value="Smith" id="last_name" required>
+                                                            <label alt="last_name" for="last_name" placeholder="">Cardholder Last Name</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <div class="float-label-field">
+                                                            <input type="text" class="form-control" value="5147 1234 5678 9101" id="card_no" required>
+                                                            <label alt="card_no" for="card_no" placeholder="">Card Number</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <div class="float-label-field">
+                                                            <input type="text" class="form-control" value="01/27" id="exp_date" required>
+                                                            <label alt="exp_date" for="exp_date" placeholder="">Expiry Date</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <div class="float-label-field">
+                                                            <input type="text" class="form-control" value="123" id="cvv" required>
+                                                            <label alt="cvv" for="cvv" placeholder="">CVV</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <div class="float-label-field">
+                                                            <input type="text" class="form-control" value="20850" id="zip_code" required>
+                                                            <label alt="zip_code" for="zip_code" placeholder="">Zip Code</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="button">
+                                                        <a href="confirmation.html" class="btn btn-main">Confirm Payment</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-sm-12 col-12">
+                        <div class="tab-content">
+                            <div class="tab-pane active d-none d-md-block" role="tabpanel" id="step4">
+                                <div class="checkout-card d-none d-md-block">
+                                    <div class="img"><img src="../assets/images/tab-profile.png" class="w-100"></div>
+                                    <div class="text">In Memory of Leslie Smith <br> Dedicated by: Kristen Smith</div>
+                                    <div class="item-amounts">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div>15 Trees</div>
+                                            <div><strong>$15.00</strong></div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div>Setup Fee</div>
+                                            <div><strong>$15.00</strong></div>
+                                        </div>
+                                    </div>
+                                    <div class="total-amount d-flex justify-content-between align-items-center">
+                                        <div>Total</div>
+                                        <div>$30.00</div>
+                                    </div>
+                                    <div class="button">
+                                        <a href="#" class="btn btn-checkout">Edit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/js/script.js"></script>
+   </body>
+</html>
