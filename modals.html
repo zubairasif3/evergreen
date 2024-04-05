@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evergreen Obits</title>
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+    <!-- font-awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/modal.css"/>
+</head>
+<body>
+    
+    <div class="wrapper p-4">
+        <a href="#" class="btn btn-primary text-white me-2 mb-3" data-bs-toggle="modal" data-bs-target="#shareModal">Share</a>
+        <a href="#" class="btn btn-primary text-white me-2 mb-3" data-bs-toggle="modal" data-bs-target="#editObituaryModal">Edit Obituary</a>
+        <a href="#" class="btn btn-primary text-white me-2 mb-3" data-bs-toggle="modal" data-bs-target="#AreYouSureModal">Are you sure</a>
+    </div>
+
+    <!-- social share modal -->
+    <div class="modal fade" id="shareModal" tabindex="-1" aria-labelledby="shareModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="shareModalLabel">Share</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="social-flex">
+                    <div class="social-item">
+                        <a href="#">
+                            <div class="img"><img src="assets/images/socials/1.png"></div>
+                            <div class="title">Facebook</div>
+                        </a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#">
+                            <div class="img"><img src="assets/images/socials/2.png"></div>
+                            <div class="title">Email</div>
+                        </a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#">
+                            <div class="img"><img src="assets/images/socials/3.png"></div>
+                            <div class="title">Twitter</div>
+                        </a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#">
+                            <div class="img"><img src="assets/images/socials/4.png"></div>
+                            <div class="title">WhatsApp</div>
+                        </a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#">
+                            <div class="img"><img src="assets/images/socials/5.svg"></div>
+                            <div class="title">Messenger</div>
+                        </a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#">
+                            <div class="img"><img src="assets/images/socials/6.png"></div>
+                            <div class="title">Snapchat</div>
+                        </a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#">
+                            <div class="img"><img src="assets/images/socials/7.svg"></div>
+                            <div class="title">Kakao</div>
+                        </a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#">
+                            <div class="img"><img src="assets/images/socials/8.png"></div>
+                            <div class="title">Pinterest</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="copy-link">
+                    <div class="title">Obituary Link</div>
+                    <div class="form-group">
+                        <input type="text" value="https://evergreenobits.com/o/17439" readonly>
+                        <a href="#" class="btn btn-copy">COPY</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Edit Obituary modal -->
+    <div class="modal fade" id="editObituaryModal" tabindex="-1" aria-labelledby="editObituaryModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editObituaryModalLabel">Edit Obituary</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="tab-links justify-content-center mb-3">
+                    <a class="btn btn-post-tab" data-target-class=".memorial-content">Memorial</a>
+                    <a class="btn btn-post-tab active" data-target-class=".image-content">Image</a>
+                    <a class="btn btn-post-tab" data-target-class=".event-content">Events</a>
+                </div>
+                <div class="tab-content-div mb-4">
+                    <div class="tab-item memorial-content">
+                        <div class="caption-detail">
+                            <div class="title-flex">
+                                <div>Caption</div>
+                                <i class="fas fa-pen"></i>
+                            </div>
+                            <div class="text">In Loving Memory of</div>
+                        </div>
+                        <div class="bio-detail">
+                            <div class="title-flex">
+                                <div>Obituary Bio</div>
+                                <i class="fas fa-pen"></i>
+                            </div>
+                            <div class="text">Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls. Forever nourished. Mom’s kitchen was a sanctuary, where her culinary magic ignited our taste buds and souls</div>
+                        </div>
+                        <div class="location-detail">
+                            <div class="title-flex">
+                                <div>Location</div>
+                                <i class="fas fa-pen"></i>
+                            </div>
+                            <div class="text">Albany, NY</div>
+                        </div>
+                        <div class="education-detail">
+                            <div class="title-flex">
+                                <div>Education</div>
+                                <i class="fas fa-pen"></i>
+                            </div>
+                            <div class="text mb-3">
+                                <div class="tag">College</div> Amherst College
+                            </div>
+                            <div class="text">
+                                <div class="tag">High School</div> Rochester High School
+                            </div>
+                        </div>
+                    </div>
+                  <div class="tab-item image-content active">
+                    <div class="title-flex">
+                        <div>Profile Photos</div>
+                        <i class="fas fa-pen"></i>
+                    </div>
+                    <div class="imgs-flex">
+                        <div class="img"><img src="assets/images/tab-profile.png"></div>
+                        <div class="img"><img src="assets/images/post-tab-card.png"></div>
+                        <div class="img"><img src="assets/images/about-content-3.png"></div>
+                    </div>
+                    <div class="title-flex">
+                        <div>Cover Image</div>
+                        <i class="fas fa-pen"></i>
+                    </div>
+                    <div class="cover-img">
+                        <div class="img"><img src="assets/images/purpose-4.png"></div>
+                    </div>
+                  </div>
+                    <div class="tab-item event-content">
+                        <div class="event-tab-card">
+                            <div class="date">AUG <strong>01</strong></div>
+                            <div class="content flex-grow-1">
+                                <div class="title-flex">
+                                    <div class="title">Viewing</div>
+                                    <i class="fas fa-pen"></i>
+                                </div>
+                                <div class="text"><i class="far fa-clock"></i> 10:00 AM - 12:00 PM</div>
+                                <div class="text"><i class="fas fa-location-arrow"></i> New Comer Funeral Home <br> 343 New Karner Rd, Colonie, NY 12205</div>
+                            </div>
+                        </div>
+                        <div class="event-tab-card">
+                            <div class="date">AUG <strong>01</strong></div>
+                            <div class="content flex-grow-1">
+                                <div class="title-flex">
+                                    <div class="title">Visitation</div>
+                                    <i class="fas fa-pen"></i>
+                                </div>
+                                <div class="text"><i class="far fa-clock"></i> 10:00 AM - 12:00 PM</div>
+                                <div class="text"><i class="fas fa-location-arrow"></i> New Comer Funeral Home <br> 343 New Karner Rd, Colonie, NY 12205</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    <!-- Are you sure modal -->
+    <div class="modal fade" id="AreYouSureModal" tabindex="-1" aria-labelledby="AreYouSureModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-center" id="AreYouSureModalLabel">Are you sure?</h5>
+            </div>
+            <div class="modal-body">
+                <div class="sure-text">Memorial trees serve as a meaningful tribute for a lifetime, planted across national forests that are in need of reforestation.</div>
+                <div class="sure-text"><strong> 1 mature tree</strong> can absorb more than <strong>48 pounds</strong> of carbon per year</div>
+                <div class="sure-buttons">
+                    <a href="#" class="btn btn-plants">Plant 1 Tree</a>
+                    <a href="#" class="btn btn-yes">Yes</a>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
